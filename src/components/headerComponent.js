@@ -28,6 +28,7 @@ background-color: white;
 padding: 10px;
 border-radius: 6px;
 width: 50%;
+margin-left: 15px;
 `
 export const SearchIcon = styled.img`
 width: 32px;
