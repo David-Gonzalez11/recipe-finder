@@ -104,7 +104,7 @@ const RecipeComponent = (props) => {
         </DialogContent>
         <DialogActions>
           <IngredientsText onClick={() => window.open(recipeObj.url)}>
-            See More{" "}
+            See More
           </IngredientsText>
           <SeeMoreText onClick={() => setShow(false)}>Close</SeeMoreText>
         </DialogActions>
