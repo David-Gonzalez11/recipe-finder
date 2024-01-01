@@ -141,7 +141,6 @@ function App() {
   }
 
   return (
-    // <div className="App">
     <Container>
       <Header>
         <AppNameComponent>
@@ -155,7 +154,6 @@ function App() {
             style={{ color: "blue" }}
           />
           <SearchInput placeholder="Search Recipe" onChange={onTextChange} />
-          {/* <input /> */}
         </SearchComponent>
       </Header>
       <RecipeListContainer>
@@ -163,16 +161,10 @@ function App() {
           recipeList.map((recipeObj, index) => (
             <RecipeComponent key={index} recipeObj={recipeObj.recipe} />
           )): <Placeholder src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rpb_food_icon.svg/1200px-Rpb_food_icon.svg.png"></Placeholder> }
-        {/* <RecipeContainer>
-          <CoverImage src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rpb_food_icon.svg/1200px-Rpb_food_icon.svg.png" />
-          <RecipeaName>MEtar paneer</RecipeaName>
-          <IngredientsText> Ingrediemts</IngredientsText>
-          <SeeMoreText>See complete reciple option </SeeMoreText>
-        </RecipeContainer> */}
       </RecipeListContainer>
     </Container>
 
-    // </div>
+
   )
 }
 
