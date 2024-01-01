@@ -1,3 +1,13 @@
+PREVIEW OF APPLICATION
+
+
+<img width="962" alt="image" src="https://github.com/David-Gonzalez11/recipe-finder/assets/24907191/b2838b68-1cde-497f-b5a8-45218233349e">
+
+Once item is searched for 
+<img width="480" alt="image" src="https://github.com/David-Gonzalez11/recipe-finder/assets/24907191/d1bafd5a-08c3-4217-867f-f04d75ff7d22">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
